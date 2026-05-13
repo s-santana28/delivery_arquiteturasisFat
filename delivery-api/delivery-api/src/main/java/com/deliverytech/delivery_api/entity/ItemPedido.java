@@ -2,7 +2,7 @@ package com.deliverytech.delivery_api.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
-
+import java.math.BigDecimal;
 
 @Entity
 @Data
@@ -11,7 +11,7 @@ public class ItemPedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private Long quantidade;
+    private int quantidade;
     private double precoUnitario;
     private double subtotal;
 
