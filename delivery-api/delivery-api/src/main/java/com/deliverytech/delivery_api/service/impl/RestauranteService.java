@@ -1,4 +1,4 @@
-package com.deliverytech.delivery_api.service;
+package com.deliverytech.delivery_api.service.impl;
 
 import com.deliverytech.delivery_api.dto.req.RestauranteReqDTO;
 import com.deliverytech.delivery_api.dto.res.RestauranteResDTO;
