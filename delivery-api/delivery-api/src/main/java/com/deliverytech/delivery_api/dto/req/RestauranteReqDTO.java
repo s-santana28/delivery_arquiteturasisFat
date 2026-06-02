@@ -9,7 +9,7 @@ public class RestauranteReqDTO {
 
      @Schema(description = "Nome do restaurante",
             example = "Pizza Express",
-            required = true)
+            requiredMode = Schema.RequiredMode.REQUIRED)
     @NotBlank(message = "Nome é obrigatório")
     @Size(min = 2, max = 100, message = "Nome deve ter entre 2 e 100 caracteres")
     private String nome;

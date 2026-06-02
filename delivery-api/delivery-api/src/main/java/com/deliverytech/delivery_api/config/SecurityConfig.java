@@ -28,11 +28,28 @@ import java.util.Arrays;
 @EnableMethodSecurity(prePostEnabled = true)
 public class SecurityConfig {
 
-    @Autowired
-    private AuthService authService;
+    private static final String[] WHITE_LIST = {
 
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+        "/",
+        "/**.html",
+        "/**.css",
+        "/**.js",
+        "/**.ico",
+        "/swagger-ui/**",
+        "/swagger-ui.html",
+        "/v3/api-docs/**",
+        "/swagger-resources/**",
+        "/webjars/**",
+        "/api/auth/**",
+        "/api/restaurantes",
+        "/api/produtos",
+        "/actuator/health",
+        "/h2-console/**"
+
+    };
+
+    @Autowired private AuthService authService;
+    @Autowired private PasswordEncoder passwordEncoder;
 
     @Bean
     public DaoAuthenticationProvider authenticationProvider() {
@@ -52,27 +69,10 @@ public class SecurityConfig {
         http
             .cors(cors -> cors.configurationSource(corsConfigurationSource()))
             .csrf(AbstractHttpConfigurer::disable)
-            .sessionManagement(session ->
-                session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
             .authenticationProvider(authenticationProvider())
             .authorizeHttpRequests(auth -> auth
-                // Recursos estáticos
-                .requestMatchers("/", "/**.html", "/**.css", "/**.js", "/**.ico").permitAll()
-                // Swagger
-                .requestMatchers(
-                    "/swagger-ui/**",
-                    "/swagger-ui.html",
-                    "/v3/api-docs/**",
-                    "/swagger-resources/**",
-                    "/webjars/**"
-                ).permitAll()
-                // Endpoints públicos
-                .requestMatchers("/api/auth/**").permitAll()
-                .requestMatchers("/api/restaurantes").permitAll()
-                .requestMatchers("/api/produtos").permitAll()
-                .requestMatchers("/actuator/health").permitAll()
-                .requestMatchers("/h2-console/**").permitAll()
-                // Todos os outros requerem autenticação
+                .requestMatchers(WHITE_LIST).permitAll()
                 .anyRequest().authenticated()
             )
             .addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class)
