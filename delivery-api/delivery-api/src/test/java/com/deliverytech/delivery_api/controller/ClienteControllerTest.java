@@ -20,20 +20,14 @@ import org.springframework.transaction.annotation.Transactional;
 import static org.hamcrest.Matchers.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
+import org.springframework.security.test.context.support.WithMockUser;
 
-/**
- * Testes de integração do ClienteController.
- *
- * Observações de configuração:
- *  - Usa perfil "test" → crie src/test/resources/application-test.properties
- *    desabilitando o JWT se necessário (ver comentário no final do arquivo).
- *  - @AutoConfigureMockMvc (sem "Web") sobe o contexto completo com MockMvc.
- *  - @Transactional garante rollback após cada teste (substitui DirtiesContext).
- */
 @SpringBootTest
 @AutoConfigureMockMvc
 @ActiveProfiles("test")
 @Transactional
+@WithMockUser(roles = "ADMIN")
+@DirtiesContext(classMode = DirtiesContext.ClassMode.BEFORE_EACH_TEST_METHOD)
 @DisplayName("Testes de Integração do ClienteController")
 class ClienteControllerTest {
 
@@ -52,7 +46,7 @@ class ClienteControllerTest {
 
     @BeforeEach
     void setUp() {
-        clienteRepository.deleteAll();
+        // clienteRepository.deleteAll();
 
         Cliente cliente = new Cliente();
         cliente.setNome("João Teste");
@@ -72,7 +66,7 @@ class ClienteControllerTest {
     void should_CreateCliente_When_ValidData() throws Exception {
         ClienteReqDTO novoCliente = new ClienteReqDTO();
         novoCliente.setNome("Maria Silva");
-        novoCliente.setEmail("maria@email.com");
+        novoCliente.setEmail("maria.nova@email.com");
         novoCliente.setTelefone("11888888888");
         novoCliente.setEndereco("Rua B, 200");
 
@@ -81,7 +75,7 @@ class ClienteControllerTest {
                 .content(objectMapper.writeValueAsString(novoCliente)))
                 .andExpect(status().isCreated())
                 .andExpect(jsonPath("$.nome", is("Maria Silva")))
-                .andExpect(jsonPath("$.email", is("maria@email.com")))
+                .andExpect(jsonPath("$.email", is("maria.nova@email.com")))
                 .andExpect(jsonPath("$.id", notNullValue()))
                 .andExpect(jsonPath("$.ativo", is(true)));
     }

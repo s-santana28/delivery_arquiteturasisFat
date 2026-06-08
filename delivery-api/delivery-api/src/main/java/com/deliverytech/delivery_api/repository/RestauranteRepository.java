@@ -1,6 +1,8 @@
 package com.deliverytech.delivery_api.repository;
 
 import com.deliverytech.delivery_api.entity.Restaurante;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -17,16 +19,22 @@ public interface RestauranteRepository extends JpaRepository<Restaurante, Long> 
     Optional<Restaurante> findByNome(String nome);
 
     // Buscar restaurantes ativos
-    List<Restaurante> findByAtivoTrue();
+    Page<Restaurante> findByAtivo(Boolean ativo, Pageable pageable);
 
     // Buscar por categoria
-    List<Restaurante> findByCategoriaAndAtivoTrue(String categoria);
+    Page<Restaurante> findByCategoriaAndAtivo(
+        String categoria,
+        Boolean ativo,
+        Pageable pageable);
 
+    Page<Restaurante> findByCategoria(
+        String categoria,
+        Pageable pageable);
     // Buscar por nome contendo (case insensitive)
     List<Restaurante> findByNomeContainingIgnoreCaseAndAtivoTrue(String nome);
 
     // Buscar por avaliação mínima
-    List<Restaurante> findByAvaliacaoGreaterThanEqualAndAtivoTrue(BigDecimal avaliacao);
+    List<Restaurante> findByAvaliacaoGreaterThanEqualAndAtivoTrue(Integer avaliacao);
 
     // Ordenar por avaliação (descendente)
     List<Restaurante> findByAtivoTrueOrderByAvaliacaoDesc();

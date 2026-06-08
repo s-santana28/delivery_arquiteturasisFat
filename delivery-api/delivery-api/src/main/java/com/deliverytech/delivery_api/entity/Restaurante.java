@@ -9,22 +9,30 @@ import java.util.List;
 @Entity
 @Data
 public class Restaurante {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String nome;
     private String email;
     private String telefone;
     private String endereco;
     private String categoria;
+
     private boolean ativo;
+
     private Integer avaliacao;
 
     private BigDecimal taxaEntrega;
 
-    @OneToMany(mappedBy = "restaurante")
-    private List<Pedido>pedidos;
+    private Integer tempoEntrega;
+
+    private String horarioFuncionamento;
 
     @OneToMany(mappedBy = "restaurante")
-    private List<Pedido> produtos;
+    private List<Pedido> pedidos;
+
+    @OneToMany(mappedBy = "restaurante")
+    private List<Produto> produtos;
 }

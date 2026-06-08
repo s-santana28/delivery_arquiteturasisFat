@@ -43,6 +43,8 @@ public class SecurityConfig {
         "/api/auth/**",
         "/api/restaurantes",
         "/api/produtos",
+        "/api/clientes/**",
+        "/dashboard/**",
         "/actuator/health",
         "/h2-console/**"
 

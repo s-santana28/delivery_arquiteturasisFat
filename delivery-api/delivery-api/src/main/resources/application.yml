@@ -55,10 +55,10 @@ management:
 # Configuração de segurança para endpoints
 spring:
   security:
-    user: Dsecret
-    name: Samira
-    password: Seiosbr@2024
-    roles: ACTUATOR
+    user: 
+      name: Samira
+      password: Seiosbr@2024
+      roles: ACTUATOR
 
 jwt:
   secret: ${JWT_SECRET}

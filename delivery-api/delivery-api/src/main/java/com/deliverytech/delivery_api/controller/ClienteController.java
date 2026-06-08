@@ -4,6 +4,7 @@ import com.deliverytech.delivery_api.dto.req.ClienteReqDTO;
 import com.deliverytech.delivery_api.dto.res.ClienteResDTO;
 import com.deliverytech.delivery_api.service.ClienteService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +14,7 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("/clientes")
+@RequestMapping("/api/clientes")
 @CrossOrigin(origins = "*")
 public class ClienteController {
 
@@ -56,5 +57,12 @@ public class ClienteController {
     public ResponseEntity<ClienteResDTO> buscarPorEmail(@PathVariable String email) {
         ClienteResDTO cliente = clienteService.buscarClientePorEmail(email);
         return ResponseEntity.ok(cliente);
+    }
+
+     @CacheEvict(value = "clientes",
+                    allEntries = true)
+    @GetMapping("/limpar-cache")
+    public ResponseEntity<Void> limparCache() {
+        return ResponseEntity.ok().build();
     }
 }

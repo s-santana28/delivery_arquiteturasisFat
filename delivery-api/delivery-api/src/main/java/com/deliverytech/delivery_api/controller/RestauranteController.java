@@ -7,6 +7,8 @@ import com.deliverytech.delivery_api.dto.res.ProdutoResDTO;
 import com.deliverytech.delivery_api.dto.res.RestauranteResDTO;
 import com.deliverytech.delivery_api.service.ProdutoService;
 import com.deliverytech.delivery_api.service.RestauranteService;
+import com.deliverytech.delivery_api.service.MetricsService;
+import com.deliverytech.delivery_api.validation.ValidCEP;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
@@ -17,12 +19,14 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import jakarta.validation.Valid;
 import java.math.BigDecimal;
 import java.util.List;
  
 @RestController
+@Validated
 @RequestMapping("/api/restaurantes")
 @CrossOrigin(origins = "*")
 @Tag(name = "Restaurantes", description = "Operações relacionadas aos restaurantes")
@@ -33,6 +37,9 @@ public class RestauranteController {
  
     @Autowired
     private ProdutoService produtoService;
+
+    @Autowired
+    private MetricsService metricsService;
  
     @PostMapping
     @Operation(summary = "Cadastrar restaurante",
@@ -47,14 +54,20 @@ public class RestauranteController {
             @io.swagger.v3.oas.annotations.parameters.RequestBody(
                 description = "Dados do restaurante a ser criado"
             ) RestauranteReqDTO dto) {
- 
-        RestauranteResDTO restaurante = restauranteService.cadastrarRestaurante(dto);
-        ApiResponseWrapper<RestauranteResDTO> response =
-            new ApiResponseWrapper<>(true, restaurante, "Restaurante criado com sucesso");
- 
-        return ResponseEntity.status(HttpStatus.CREATED).body(response);
+        
+
+        metricsService.incrementarPedidosProcessados();
+        try {
+            RestauranteResDTO restaurante = restauranteService.cadastrarRestaurante(dto);
+            ApiResponseWrapper<RestauranteResDTO> response =
+                new ApiResponseWrapper<>(true, restaurante, "Restaurante criado com sucesso");
+
+            metricsService.incrementarPedidosComSucesso(); // Incrementa métrica de sucesso após criação bem-sucedida
+            return ResponseEntity.status(HttpStatus.CREATED).body(response);
+        } catch (Exception e) {
+            throw e; // Re-throw para que o erro seja tratado pelo handler global
+        }
     }
- 
     @GetMapping
     @Operation(summary = "Listar restaurantes",
                description = "Lista restaurantes com filtros opcionais e paginação")
