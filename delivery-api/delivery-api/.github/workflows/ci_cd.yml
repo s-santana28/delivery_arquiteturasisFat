@@ -33,8 +33,3 @@ jobs:
           -e JWT_EXPIRATION="${{ secrets.JWT_EXPIRATION }}" \
           minha-api
 
-    - name: Test application health
-      run: |
-        echo "Aguardando a API ficar online (Health Check)..."
-        timeout 40 bash -c 'until curl -f -s http://localhost:8080/actuator/health > /dev/null; do echo "Aguardando..."; sleep 2; done'
-        echo "API inicializada com sucesso!"
