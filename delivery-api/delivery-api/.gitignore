@@ -33,4 +33,3 @@ build/
 .vscode/
 .env
 .log
-.docker-compose.override.yml
