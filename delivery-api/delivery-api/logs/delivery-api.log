@@ -11268,3 +11268,1077 @@ java.lang.IllegalStateException: ApplicationContext failure threshold (1) exceed
 2026-06-09 20:20:10.231 [SpringApplicationShutdownHook] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2026-06-09 20:20:10.232 [SpringApplicationShutdownHook] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-27 - Shutdown initiated...
 2026-06-09 20:20:10.240 [SpringApplicationShutdownHook] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-27 - Shutdown completed.
+2026-06-09 21:57:55.334 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:57:55.336 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:57:55.358 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6810465
+2026-06-09 21:57:56.896 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:57:57.010 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:57:58.025 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:57:58.058 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-09 21:57:58.362 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:57:58.365 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-09 21:57:58.396 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:57:59.579 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:57:59.946 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:57:59.946 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:57:59.990 [main] INFO  [] o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-06-09 21:58:01.236 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:01.364 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:01.534 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:01.673 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:01.825 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:01.881 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:02.031 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:02.110 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:02.111 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:02.111 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:02.112 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:02.160 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 7.52 seconds (process running for 11.246)
+2026-06-09 21:58:02.224 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@6810465, started on Tue Jun 09 21:57:55 BRT 2026
+2026-06-09 21:58:02.229 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:02.239 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-09 21:58:02.241 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-09 21:58:02.244 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:02.280 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:02.280 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:02.281 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5473efcd
+2026-06-09 21:58:02.577 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:02.598 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:02.675 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:02.675 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2026-06-09 21:58:02.677 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:02.677 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2026-06-09 21:58:02.678 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:02.762 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:02.790 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:02.790 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:02.918 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:02.941 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:02.983 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:03.017 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:03.043 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:03.048 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:03.087 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:03.107 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:03.107 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:03.107 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:03.108 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:03.120 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.876 seconds (process running for 12.206)
+2026-06-09 21:58:03.296 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/clientes
+2026-06-09 21:58:03.306 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:03.315 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/clientes
+2026-06-09 21:58:03.320 [main] DEBUG [8e7d681fd4534551] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#cadastrarCliente(ClienteReqDTO)
+2026-06-09 21:58:03.362 [main] DEBUG [8e7d681fd4534551] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.ClienteReqDTO@3ef62667]
+2026-06-09 21:58:03.530 [main] DEBUG [8e7d681fd4534551] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:03.531 [main] DEBUG [8e7d681fd4534551] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.ClienteResDTO@515814e6]
+2026-06-09 21:58:03.589 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5473efcd, started on Tue Jun 09 21:58:02 BRT 2026
+2026-06-09 21:58:03.591 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:03.594 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2026-06-09 21:58:03.595 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2026-06-09 21:58:03.597 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:03.630 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:03.631 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:03.632 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@561ebe8f
+2026-06-09 21:58:03.843 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:03.862 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:03.924 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:03.924 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2026-06-09 21:58:03.926 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:03.926 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2026-06-09 21:58:03.927 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:04.012 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:04.041 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:04.041 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:04.165 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:04.188 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:04.227 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:04.257 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:04.288 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:04.293 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:04.326 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:04.342 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:04.343 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:04.343 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:04.343 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:04.362 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.765 seconds (process running for 13.448)
+2026-06-09 21:58:04.371 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing PATCH /api/clientes/4/status
+2026-06-09 21:58:04.372 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:04.373 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured PATCH /api/clientes/4/status
+2026-06-09 21:58:04.374 [main] DEBUG [a3be9b0af30d4bf6] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#ativarDesativarCliente(Long)
+2026-06-09 21:58:04.389 [main] DEBUG [a3be9b0af30d4bf6] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:04.389 [main] DEBUG [a3be9b0af30d4bf6] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.ClienteResDTO@248b599f]
+2026-06-09 21:58:04.392 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing PATCH /api/clientes/4/status
+2026-06-09 21:58:04.393 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:04.394 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured PATCH /api/clientes/4/status
+2026-06-09 21:58:04.394 [main] DEBUG [3eb414d157d14643] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#ativarDesativarCliente(Long)
+2026-06-09 21:58:04.395 [main] DEBUG [3eb414d157d14643] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:04.395 [main] DEBUG [3eb414d157d14643] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.ClienteResDTO@306015d4]
+2026-06-09 21:58:04.401 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@561ebe8f, started on Tue Jun 09 21:58:03 BRT 2026
+2026-06-09 21:58:04.402 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:04.404 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2026-06-09 21:58:04.405 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2026-06-09 21:58:04.407 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:04.433 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:04.433 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:04.434 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3c5fc608
+2026-06-09 21:58:04.636 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:04.652 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:04.711 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:04.711 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+2026-06-09 21:58:04.712 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection conn30: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:04.713 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+2026-06-09 21:58:04.713 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:04.761 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:04.784 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:04.785 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:04.890 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:04.914 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:04.958 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:04.986 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:05.009 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:05.017 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:05.052 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:05.066 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:05.067 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:05.067 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:05.067 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:05.077 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.67 seconds (process running for 14.163)
+2026-06-09 21:58:05.087 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/clientes/email/naoexiste@email.com
+2026-06-09 21:58:05.087 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:05.088 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/clientes/email/naoexiste@email.com
+2026-06-09 21:58:05.089 [main] DEBUG [54b6bb3590174a78] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#buscarPorEmail(String)
+2026-06-09 21:58:05.111 [main] DEBUG [54b6bb3590174a78] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleEntityNotFound(EntityNotFoundException, HttpServletRequest)
+2026-06-09 21:58:05.118 [main] DEBUG [54b6bb3590174a78] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:05.119 [main] DEBUG [54b6bb3590174a78] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@5bb97b5b]
+2026-06-09 21:58:05.125 [main] DEBUG [54b6bb3590174a78] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.EntityNotFoundException: Cliente não encontrado com email: naoexiste@email.com]
+2026-06-09 21:58:05.132 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@3c5fc608, started on Tue Jun 09 21:58:04 BRT 2026
+2026-06-09 21:58:05.134 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:05.137 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2026-06-09 21:58:05.138 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Shutdown completed.
+2026-06-09 21:58:05.140 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:05.165 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:05.166 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:05.167 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@56d4bb9a
+2026-06-09 21:58:05.357 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:05.376 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:05.442 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:05.443 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+2026-06-09 21:58:05.444 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection conn40: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:05.445 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+2026-06-09 21:58:05.445 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:05.495 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:05.517 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:05.518 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:05.628 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:05.650 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:05.687 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:05.717 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:05.742 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:05.746 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:05.777 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:05.788 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:05.789 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:05.789 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:05.789 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:05.798 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.658 seconds (process running for 14.884)
+2026-06-09 21:58:05.806 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/clientes/4
+2026-06-09 21:58:05.806 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:05.807 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/clientes/4
+2026-06-09 21:58:05.808 [main] DEBUG [53a7dd6073c845cd] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#buscarPorId(Long)
+2026-06-09 21:58:05.812 [main] DEBUG [53a7dd6073c845cd] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:05.812 [main] DEBUG [53a7dd6073c845cd] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.ClienteResDTO@40527f22]
+2026-06-09 21:58:05.818 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@56d4bb9a, started on Tue Jun 09 21:58:05 BRT 2026
+2026-06-09 21:58:05.819 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:05.821 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2026-06-09 21:58:05.839 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Shutdown completed.
+2026-06-09 21:58:05.840 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:05.860 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:05.860 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:05.861 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@9edd32f
+2026-06-09 21:58:06.064 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:06.083 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:06.136 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:06.136 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+2026-06-09 21:58:06.138 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection conn50: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:06.138 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+2026-06-09 21:58:06.138 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:06.187 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:06.210 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:06.211 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:06.314 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:06.334 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:06.376 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:06.403 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:06.428 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:06.432 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:06.463 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:06.476 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:06.476 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:06.476 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:06.477 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:06.486 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.646 seconds (process running for 15.572)
+2026-06-09 21:58:06.495 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing PUT /api/clientes/4
+2026-06-09 21:58:06.496 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:06.497 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured PUT /api/clientes/4
+2026-06-09 21:58:06.497 [main] DEBUG [d0fa27d68b9946f9] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#atualizarCliente(Long, ClienteReqDTO)
+2026-06-09 21:58:06.498 [main] DEBUG [d0fa27d68b9946f9] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.ClienteReqDTO@15be942f]
+2026-06-09 21:58:06.506 [main] DEBUG [d0fa27d68b9946f9] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:06.506 [main] DEBUG [d0fa27d68b9946f9] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.ClienteResDTO@103b4837]
+2026-06-09 21:58:06.512 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@9edd32f, started on Tue Jun 09 21:58:05 BRT 2026
+2026-06-09 21:58:06.514 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:06.515 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown initiated...
+2026-06-09 21:58:06.517 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Shutdown completed.
+2026-06-09 21:58:06.519 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:06.541 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:06.541 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:06.542 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@26f7b3c5
+2026-06-09 21:58:06.720 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:06.742 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:06.789 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:06.789 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+2026-06-09 21:58:06.790 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection conn58: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:06.791 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+2026-06-09 21:58:06.791 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:06.833 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:06.855 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:06.856 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:06.952 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:06.973 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:07.008 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:07.038 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:07.062 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:07.066 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:07.095 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:07.108 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:07.108 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:07.108 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:07.109 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:07.116 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.597 seconds (process running for 16.203)
+2026-06-09 21:58:07.129 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing PUT /api/clientes/999999
+2026-06-09 21:58:07.130 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:07.131 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured PUT /api/clientes/999999
+2026-06-09 21:58:07.131 [main] DEBUG [a26bb25d849544c1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#atualizarCliente(Long, ClienteReqDTO)
+2026-06-09 21:58:07.134 [main] DEBUG [a26bb25d849544c1] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.ClienteReqDTO@4c6a1c71]
+2026-06-09 21:58:07.140 [main] DEBUG [a26bb25d849544c1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleEntityNotFound(EntityNotFoundException, HttpServletRequest)
+2026-06-09 21:58:07.146 [main] DEBUG [a26bb25d849544c1] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:07.147 [main] DEBUG [a26bb25d849544c1] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@52d6c911]
+2026-06-09 21:58:07.147 [main] DEBUG [a26bb25d849544c1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.EntityNotFoundException: Cliente não encontrado com ID: 999999]
+2026-06-09 21:58:07.165 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@26f7b3c5, started on Tue Jun 09 21:58:06 BRT 2026
+2026-06-09 21:58:07.167 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:07.171 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown initiated...
+2026-06-09 21:58:07.172 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Shutdown completed.
+2026-06-09 21:58:07.174 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:07.199 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:07.199 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:07.200 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1303bf36
+2026-06-09 21:58:07.384 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:07.403 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:07.452 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:07.452 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+2026-06-09 21:58:07.454 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection conn67: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:07.454 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+2026-06-09 21:58:07.454 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:07.499 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:07.522 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:07.523 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:07.614 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:07.635 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:07.668 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:07.696 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:07.720 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:07.729 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:07.757 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:07.769 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:07.769 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:07.769 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:07.770 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:07.777 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.603 seconds (process running for 16.863)
+2026-06-09 21:58:07.784 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/clientes/email/joao.teste@email.com
+2026-06-09 21:58:07.785 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:07.786 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/clientes/email/joao.teste@email.com
+2026-06-09 21:58:07.787 [main] DEBUG [f3ab0e614c204b0f] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#buscarPorEmail(String)
+2026-06-09 21:58:07.791 [main] DEBUG [f3ab0e614c204b0f] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:07.793 [main] DEBUG [f3ab0e614c204b0f] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.ClienteResDTO@77eac125]
+2026-06-09 21:58:07.797 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1303bf36, started on Tue Jun 09 21:58:07 BRT 2026
+2026-06-09 21:58:07.799 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:07.800 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown initiated...
+2026-06-09 21:58:07.802 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Shutdown completed.
+2026-06-09 21:58:07.804 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:07.824 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:07.824 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:07.825 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7f368c77
+2026-06-09 21:58:07.999 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:08.014 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:08.066 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:08.067 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Starting...
+2026-06-09 21:58:08.067 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-9 - Added connection conn75: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:08.067 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Start completed.
+2026-06-09 21:58:08.068 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:08.108 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:08.128 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:08.128 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:08.234 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:08.256 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:08.292 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:08.318 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:08.341 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:08.346 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:08.386 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:08.400 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:08.401 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:08.401 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:08.401 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:08.412 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.608 seconds (process running for 17.497)
+2026-06-09 21:58:08.419 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/clientes
+2026-06-09 21:58:08.419 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:08.420 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/clientes
+2026-06-09 21:58:08.421 [main] DEBUG [0e842d759f7146d5] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#listarClientesAtivos()
+2026-06-09 21:58:08.441 [main] DEBUG [0e842d759f7146d5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:08.441 [main] DEBUG [0e842d759f7146d5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.deliverytech.delivery_api.dto.res.ClienteResDTO@78ce53ff, com.deliverytech.delivery_api.dto.res (truncated)...]
+2026-06-09 21:58:08.452 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7f368c77, started on Tue Jun 09 21:58:07 BRT 2026
+2026-06-09 21:58:08.453 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:08.455 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown initiated...
+2026-06-09 21:58:08.461 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-9 - Shutdown completed.
+2026-06-09 21:58:08.462 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:08.480 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:08.480 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:08.481 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5495292e
+2026-06-09 21:58:08.636 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:08.651 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:08.699 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:08.699 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Starting...
+2026-06-09 21:58:08.701 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-10 - Added connection conn84: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:08.701 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Start completed.
+2026-06-09 21:58:08.701 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:08.744 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:08.785 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:08.786 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:08.902 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:08.922 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:08.956 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:08.983 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:09.005 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:09.010 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:09.039 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:09.052 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:09.052 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:09.052 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:09.053 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:09.061 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.599 seconds (process running for 18.147)
+2026-06-09 21:58:09.067 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/clientes/999999
+2026-06-09 21:58:09.068 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:09.068 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/clientes/999999
+2026-06-09 21:58:09.070 [main] DEBUG [287a623158df4bc5] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#buscarPorId(Long)
+2026-06-09 21:58:09.072 [main] DEBUG [287a623158df4bc5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleEntityNotFound(EntityNotFoundException, HttpServletRequest)
+2026-06-09 21:58:09.074 [main] DEBUG [287a623158df4bc5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:09.074 [main] DEBUG [287a623158df4bc5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@3d7ad2c7]
+2026-06-09 21:58:09.075 [main] DEBUG [287a623158df4bc5] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.EntityNotFoundException: Cliente não encontrado com ID: 999999]
+2026-06-09 21:58:09.080 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5495292e, started on Tue Jun 09 21:58:08 BRT 2026
+2026-06-09 21:58:09.081 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:09.082 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown initiated...
+2026-06-09 21:58:09.110 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-10 - Shutdown completed.
+2026-06-09 21:58:09.111 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:09.129 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:09.129 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:09.130 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3b2375bf
+2026-06-09 21:58:09.291 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:09.306 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:09.352 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:09.353 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Starting...
+2026-06-09 21:58:09.354 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-11 - Added connection conn94: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:09.354 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Start completed.
+2026-06-09 21:58:09.354 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:09.393 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:09.413 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:09.413 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:09.496 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:09.518 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:09.554 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:09.582 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:09.604 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:09.609 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:09.639 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:09.652 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:09.652 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:09.652 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:09.653 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:09.661 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.55 seconds (process running for 18.747)
+2026-06-09 21:58:09.668 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/clientes
+2026-06-09 21:58:09.669 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:09.670 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/clientes
+2026-06-09 21:58:09.671 [main] DEBUG [80c12385a49d4fcb] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#cadastrarCliente(ClienteReqDTO)
+2026-06-09 21:58:09.672 [main] DEBUG [80c12385a49d4fcb] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.ClienteReqDTO@3911dea8]
+2026-06-09 21:58:09.677 [main] DEBUG [80c12385a49d4fcb] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleBusinessException(BusinessException, HttpServletRequest)
+2026-06-09 21:58:09.680 [main] DEBUG [80c12385a49d4fcb] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:09.680 [main] DEBUG [80c12385a49d4fcb] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@238a8647]
+2026-06-09 21:58:09.681 [main] DEBUG [80c12385a49d4fcb] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.BusinessException: Email já cadastrado: joao.teste@email.com]
+2026-06-09 21:58:09.687 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@3b2375bf, started on Tue Jun 09 21:58:09 BRT 2026
+2026-06-09 21:58:09.688 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:09.690 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown initiated...
+2026-06-09 21:58:09.721 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-11 - Shutdown completed.
+2026-06-09 21:58:09.723 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:09.741 [main] INFO  [] c.d.d.c.ClienteControllerTest - Starting ClienteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:09.741 [main] INFO  [] c.d.d.c.ClienteControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:09.742 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@7dc25c64
+2026-06-09 21:58:09.903 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:09.917 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:09.964 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:09.965 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Starting...
+2026-06-09 21:58:09.966 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Added connection conn102: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:09.966 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Start completed.
+2026-06-09 21:58:09.966 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:10.001 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:10.020 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:10.020 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:10.099 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:10.117 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:10.150 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:10.177 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:10.206 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:10.212 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:10.258 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:10.271 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:10.272 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:10.272 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:10.272 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:10.281 [main] INFO  [] c.d.d.c.ClienteControllerTest - Started ClienteControllerTest in 0.558 seconds (process running for 19.367)
+2026-06-09 21:58:10.288 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/clientes
+2026-06-09 21:58:10.289 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:10.290 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/clientes
+2026-06-09 21:58:10.290 [main] DEBUG [7a54e5520ef345ea] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.ClienteController#cadastrarCliente(ClienteReqDTO)
+2026-06-09 21:58:10.291 [main] DEBUG [7a54e5520ef345ea] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.ClienteReqDTO@463a2c98]
+2026-06-09 21:58:10.300 [main] DEBUG [7a54e5520ef345ea] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleValidationException(MethodArgumentNotValidException, HttpServletRequest)
+2026-06-09 21:58:10.302 [main] DEBUG [7a54e5520ef345ea] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:10.302 [main] DEBUG [7a54e5520ef345ea] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@38969b8a]
+2026-06-09 21:58:10.306 [main] DEBUG [7a54e5520ef345ea] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.deliverytech.delivery_api.dto.res.ClienteResDTO> com.deliverytech.delivery_api.controller.ClienteController.cadastrarCliente(com.deliverytech.delivery_api.dto.req.ClienteReqDTO) with 5 errors: [Field error in object 'clienteReqDTO' on field 'endereco': rejected value [null]; codes [NotBlank.clienteReqDTO.endereco,NotBlank.endereco,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clienteReqDTO.endereco,endereco]; arguments []; default message [endereco]]; default message [Endereço é obrigatório]] [Field error in object 'clienteReqDTO' on field 'nome': rejected value []; codes [Size.clienteReqDTO.nome,Size.nome,Size.java.lang.String,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clienteReqDTO.nome,nome]; arguments []; default message [nome],100,2]; default message [Nome deve ter entre 2 e 100 caracteres]] [Field error in object 'clienteReqDTO' on field 'email': rejected value [email-invalido]; codes [Email.clienteReqDTO.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clienteReqDTO.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@715fa220,.*]; default message [Email deve ter formato válido]] [Field error in object 'clienteReqDTO' on field 'nome': rejected value []; codes [NotBlank.clienteReqDTO.nome,NotBlank.nome,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clienteReqDTO.nome,nome]; arguments []; default message [nome]]; default message [Nome é obrigatório]] [Field error in object 'clienteReqDTO' on field 'telefone': rejected value [null]; codes [NotBlank.clienteReqDTO.telefone,NotBlank.telefone,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [clienteReqDTO.telefone,telefone]; arguments []; default message [telefone]]; default message [Telefone é obrigatório]] ]
+2026-06-09 21:58:10.313 [main] INFO  [] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.deliverytech.delivery_api.controller.PedidoControllerTest]: PedidoControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-09 21:58:10.317 [main] INFO  [] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.deliverytech.delivery_api.DeliveryApiApplication for test class com.deliverytech.delivery_api.controller.PedidoControllerTest
+2026-06-09 21:58:10.319 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@7dc25c64, started on Tue Jun 09 21:58:09 BRT 2026
+2026-06-09 21:58:10.320 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:10.321 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown initiated...
+2026-06-09 21:58:10.341 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-12 - Shutdown completed.
+2026-06-09 21:58:10.342 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:10.360 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:10.360 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:10.361 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@102ce469
+2026-06-09 21:58:10.517 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:10.532 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:10.583 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:10.584 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Starting...
+2026-06-09 21:58:10.585 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-13 - Added connection conn110: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:10.585 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Start completed.
+2026-06-09 21:58:10.585 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:10.623 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:10.643 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:10.643 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:10.737 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:10.757 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:10.786 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:10.813 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:10.833 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:10.838 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:10.864 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:10.874 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:10.874 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:10.874 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:10.875 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:10.882 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.54 seconds (process running for 19.968)
+2026-06-09 21:58:10.934 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:10.935 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:10.936 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:10.936 [main] DEBUG [6135dd29e53343f5] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:10.939 [main] DEBUG [6135dd29e53343f5] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@31189610]
+2026-06-09 21:58:10.974 [main] DEBUG [6135dd29e53343f5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:10.975 [main] DEBUG [6135dd29e53343f5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@7daa4e8]
+2026-06-09 21:58:10.980 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@102ce469, started on Tue Jun 09 21:58:10 BRT 2026
+2026-06-09 21:58:10.982 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:10.983 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown initiated...
+2026-06-09 21:58:10.992 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-13 - Shutdown completed.
+2026-06-09 21:58:10.993 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:11.010 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:11.010 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:11.011 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5865496d
+2026-06-09 21:58:11.179 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:11.194 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:11.241 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:11.241 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Starting...
+2026-06-09 21:58:11.242 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-14 - Added connection conn120: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:11.242 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Start completed.
+2026-06-09 21:58:11.243 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:11.280 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:11.300 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:11.300 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:11.381 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:11.400 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:11.431 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:11.457 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:11.477 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:11.482 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:11.507 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:11.518 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:11.518 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:11.518 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:11.518 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:11.526 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.533 seconds (process running for 20.613)
+2026-06-09 21:58:11.553 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:11.553 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:11.554 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:11.554 [main] DEBUG [d0f6d68b793a4bf1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:11.556 [main] DEBUG [d0f6d68b793a4bf1] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@21350af4]
+2026-06-09 21:58:11.570 [main] DEBUG [d0f6d68b793a4bf1] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:11.570 [main] DEBUG [d0f6d68b793a4bf1] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@4af4bf92]
+2026-06-09 21:58:11.577 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/pedidos/cliente/4
+2026-06-09 21:58:11.578 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:11.578 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/pedidos/cliente/4
+2026-06-09 21:58:11.579 [main] DEBUG [fa7ffefd6b30405e] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#buscarPorCliente(Long)
+2026-06-09 21:58:11.602 [main] DEBUG [fa7ffefd6b30405e] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:11.602 [main] DEBUG [fa7ffefd6b30405e] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.deliverytech.delivery_api.dto.res.PedidoResDTO@467d1802]]
+2026-06-09 21:58:11.611 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5865496d, started on Tue Jun 09 21:58:11 BRT 2026
+2026-06-09 21:58:11.612 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:11.614 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown initiated...
+2026-06-09 21:58:11.637 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-14 - Shutdown completed.
+2026-06-09 21:58:11.638 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:11.655 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:11.655 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:11.656 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3532a9ee
+2026-06-09 21:58:11.813 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:11.827 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:11.872 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:11.872 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Starting...
+2026-06-09 21:58:11.873 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-15 - Added connection conn129: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:11.874 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Start completed.
+2026-06-09 21:58:11.874 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:11.909 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:11.927 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:11.927 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:12.010 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:12.028 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:12.059 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:12.084 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:12.104 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:12.108 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:12.134 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:12.153 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:12.153 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:12.153 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:12.154 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:12.166 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.528 seconds (process running for 21.252)
+2026-06-09 21:58:12.208 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:12.208 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:12.210 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:12.210 [main] DEBUG [53add16341ad4606] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:12.213 [main] DEBUG [53add16341ad4606] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@4a0abb5d]
+2026-06-09 21:58:12.228 [main] DEBUG [53add16341ad4606] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleBusinessException(BusinessException, HttpServletRequest)
+2026-06-09 21:58:12.230 [main] DEBUG [53add16341ad4606] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:12.231 [main] DEBUG [53add16341ad4606] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@62dc8654]
+2026-06-09 21:58:12.231 [main] DEBUG [53add16341ad4606] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.BusinessException: Cliente inativo não pode fazer pedidos]
+2026-06-09 21:58:12.238 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@3532a9ee, started on Tue Jun 09 21:58:11 BRT 2026
+2026-06-09 21:58:12.240 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:12.243 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown initiated...
+2026-06-09 21:58:12.245 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-15 - Shutdown completed.
+2026-06-09 21:58:12.247 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:12.265 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:12.266 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:12.267 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5bae8f5d
+2026-06-09 21:58:12.424 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:12.437 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:12.484 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:12.484 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Starting...
+2026-06-09 21:58:12.485 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-16 - Added connection conn137: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:12.485 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Start completed.
+2026-06-09 21:58:12.486 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:12.521 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:12.539 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:12.540 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:12.614 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:12.632 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:12.661 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:12.689 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:12.708 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:12.713 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:12.739 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:12.749 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:12.750 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:12.750 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:12.750 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:12.758 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.51 seconds (process running for 21.843)
+2026-06-09 21:58:12.779 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:12.779 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:12.780 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:12.780 [main] DEBUG [bec7dba179a04e73] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:12.782 [main] DEBUG [bec7dba179a04e73] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@736f317d]
+2026-06-09 21:58:12.794 [main] DEBUG [bec7dba179a04e73] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:12.795 [main] DEBUG [bec7dba179a04e73] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@c3d990f]
+2026-06-09 21:58:12.797 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing DELETE /api/pedidos/4
+2026-06-09 21:58:12.798 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:12.798 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured DELETE /api/pedidos/4
+2026-06-09 21:58:12.798 [main] DEBUG [cce6ab5febfb464a] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#cancelarPedido(Long)
+2026-06-09 21:58:12.804 [main] DEBUG [cce6ab5febfb464a] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:12.804 [main] DEBUG [cce6ab5febfb464a] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+2026-06-09 21:58:12.806 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/pedidos/4
+2026-06-09 21:58:12.806 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:12.807 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/pedidos/4
+2026-06-09 21:58:12.807 [main] DEBUG [967244cf1be441b5] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#buscarPorId(Long)
+2026-06-09 21:58:12.809 [main] DEBUG [967244cf1be441b5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:12.809 [main] DEBUG [967244cf1be441b5] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@512095cf]
+2026-06-09 21:58:12.813 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5bae8f5d, started on Tue Jun 09 21:58:12 BRT 2026
+2026-06-09 21:58:12.815 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:12.816 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown initiated...
+2026-06-09 21:58:12.831 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-16 - Shutdown completed.
+2026-06-09 21:58:12.836 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:12.852 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:12.853 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:12.854 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4c887768
+2026-06-09 21:58:13.046 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:13.062 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:13.110 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:13.110 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Starting...
+2026-06-09 21:58:13.111 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-17 - Added connection conn145: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:13.112 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Start completed.
+2026-06-09 21:58:13.112 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:13.148 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:13.168 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:13.168 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:13.248 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:13.267 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:13.296 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:13.322 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:13.343 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:13.347 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:13.373 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:13.384 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:13.384 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:13.384 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:13.384 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:13.393 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.557 seconds (process running for 22.479)
+2026-06-09 21:58:13.416 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:13.417 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:13.418 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:13.418 [main] DEBUG [e64af54107c64e31] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:13.420 [main] DEBUG [e64af54107c64e31] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@232b6f4]
+2026-06-09 21:58:13.426 [main] DEBUG [e64af54107c64e31] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleValidationException(MethodArgumentNotValidException, HttpServletRequest)
+2026-06-09 21:58:13.427 [main] DEBUG [e64af54107c64e31] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:13.427 [main] DEBUG [e64af54107c64e31] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@69592aeb]
+2026-06-09 21:58:13.428 [main] DEBUG [e64af54107c64e31] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.deliverytech.delivery_api.dto.res.PedidoResDTO> com.deliverytech.delivery_api.controller.PedidoController.criarPedido(com.deliverytech.delivery_api.dto.req.PedidoReqDTO): [Field error in object 'pedidoReqDTO' on field 'itens': rejected value [[]]; codes [NotEmpty.pedidoReqDTO.itens,NotEmpty.itens,NotEmpty.java.util.List,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [pedidoReqDTO.itens,itens]; arguments []; default message [itens]]; default message [Pedido deve ter pelo menos um item]] ]
+2026-06-09 21:58:13.432 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4c887768, started on Tue Jun 09 21:58:12 BRT 2026
+2026-06-09 21:58:13.434 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:13.434 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown initiated...
+2026-06-09 21:58:13.441 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-17 - Shutdown completed.
+2026-06-09 21:58:13.442 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:13.459 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:13.459 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:13.460 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6fd3e4c9
+2026-06-09 21:58:13.631 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:13.645 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:13.692 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:13.693 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Starting...
+2026-06-09 21:58:13.694 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-18 - Added connection conn152: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:13.694 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Start completed.
+2026-06-09 21:58:13.694 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:13.728 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:13.748 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:13.748 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:13.829 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:13.848 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:13.879 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:13.905 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:13.927 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:13.933 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:13.963 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:13.973 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:13.973 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:13.973 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:13.974 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:13.992 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.55 seconds (process running for 23.078)
+2026-06-09 21:58:14.016 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:14.016 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:14.017 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:14.017 [main] DEBUG [85d1ff130f9c4849] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:14.020 [main] DEBUG [85d1ff130f9c4849] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@68530bc5]
+2026-06-09 21:58:14.028 [main] DEBUG [85d1ff130f9c4849] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleEntityNotFound(EntityNotFoundException, HttpServletRequest)
+2026-06-09 21:58:14.030 [main] DEBUG [85d1ff130f9c4849] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:14.030 [main] DEBUG [85d1ff130f9c4849] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@345a8cc9]
+2026-06-09 21:58:14.031 [main] DEBUG [85d1ff130f9c4849] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.EntityNotFoundException: Produto não encontrado: 999999]
+2026-06-09 21:58:14.037 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@6fd3e4c9, started on Tue Jun 09 21:58:13 BRT 2026
+2026-06-09 21:58:14.038 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:14.039 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown initiated...
+2026-06-09 21:58:14.051 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-18 - Shutdown completed.
+2026-06-09 21:58:14.053 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:14.070 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:14.071 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:14.071 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@46481cda
+2026-06-09 21:58:14.224 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:14.239 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:14.284 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:14.284 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Starting...
+2026-06-09 21:58:14.285 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-19 - Added connection conn160: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:14.285 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Start completed.
+2026-06-09 21:58:14.285 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:14.319 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:14.337 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:14.337 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:14.420 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:14.438 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:14.467 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:14.501 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:14.520 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:14.524 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:14.547 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:14.556 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:14.556 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:14.556 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:14.556 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:14.564 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.511 seconds (process running for 23.65)
+2026-06-09 21:58:14.584 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing DELETE /api/pedidos/999999
+2026-06-09 21:58:14.585 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:14.586 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured DELETE /api/pedidos/999999
+2026-06-09 21:58:14.586 [main] DEBUG [1c524b8c13c547f4] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#cancelarPedido(Long)
+2026-06-09 21:58:14.588 [main] DEBUG [1c524b8c13c547f4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleEntityNotFound(EntityNotFoundException, HttpServletRequest)
+2026-06-09 21:58:14.590 [main] DEBUG [1c524b8c13c547f4] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:14.590 [main] DEBUG [1c524b8c13c547f4] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@69d3abdf]
+2026-06-09 21:58:14.591 [main] DEBUG [1c524b8c13c547f4] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.EntityNotFoundException: Pedido não encontrado]
+2026-06-09 21:58:14.594 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@46481cda, started on Tue Jun 09 21:58:14 BRT 2026
+2026-06-09 21:58:14.595 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:14.596 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Shutdown initiated...
+2026-06-09 21:58:14.615 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-19 - Shutdown completed.
+2026-06-09 21:58:14.616 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:14.631 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:14.631 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:14.632 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6c259bf7
+2026-06-09 21:58:14.799 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:14.814 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:14.860 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:14.861 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Starting...
+2026-06-09 21:58:14.862 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-20 - Added connection conn167: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:14.862 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Start completed.
+2026-06-09 21:58:14.862 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:14.897 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:14.917 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:14.917 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:15.011 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:15.050 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:15.079 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:15.104 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:15.124 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:15.128 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:15.151 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:15.161 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:15.161 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:15.161 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:15.161 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:15.170 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.554 seconds (process running for 24.255)
+2026-06-09 21:58:15.192 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:15.192 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:15.193 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:15.194 [main] DEBUG [32063a22d2bd4814] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:15.195 [main] DEBUG [32063a22d2bd4814] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@2004bbaf]
+2026-06-09 21:58:15.205 [main] DEBUG [32063a22d2bd4814] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:15.205 [main] DEBUG [32063a22d2bd4814] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@60c20d6d]
+2026-06-09 21:58:15.208 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/pedidos/4
+2026-06-09 21:58:15.209 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:15.210 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/pedidos/4
+2026-06-09 21:58:15.210 [main] DEBUG [14af211031d74fba] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#buscarPorId(Long)
+2026-06-09 21:58:15.211 [main] DEBUG [14af211031d74fba] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:15.211 [main] DEBUG [14af211031d74fba] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@2e6e8abc]
+2026-06-09 21:58:15.216 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@6c259bf7, started on Tue Jun 09 21:58:14 BRT 2026
+2026-06-09 21:58:15.217 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:15.219 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Shutdown initiated...
+2026-06-09 21:58:15.224 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-20 - Shutdown completed.
+2026-06-09 21:58:15.226 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:15.242 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:15.243 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:15.243 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@199c656c
+2026-06-09 21:58:15.407 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:15.421 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:15.465 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:15.465 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-21 - Starting...
+2026-06-09 21:58:15.466 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-21 - Added connection conn175: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:15.466 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-21 - Start completed.
+2026-06-09 21:58:15.467 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:15.503 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:15.521 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:15.521 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:15.592 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:15.610 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:15.639 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:15.664 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:15.685 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:15.689 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:15.714 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:15.723 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:15.723 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:15.723 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:15.724 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:15.732 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.506 seconds (process running for 24.818)
+2026-06-09 21:58:15.751 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/pedidos/cliente/4
+2026-06-09 21:58:15.751 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:15.752 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/pedidos/cliente/4
+2026-06-09 21:58:15.753 [main] DEBUG [eeb68f7c09174350] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#buscarPorCliente(Long)
+2026-06-09 21:58:15.761 [main] DEBUG [eeb68f7c09174350] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:15.761 [main] DEBUG [eeb68f7c09174350] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[]]
+2026-06-09 21:58:15.765 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@199c656c, started on Tue Jun 09 21:58:15 BRT 2026
+2026-06-09 21:58:15.767 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:15.768 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-21 - Shutdown initiated...
+2026-06-09 21:58:15.785 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-21 - Shutdown completed.
+2026-06-09 21:58:15.787 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:15.801 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:15.801 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:15.803 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1ce4c7e6
+2026-06-09 21:58:15.961 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:15.974 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:16.018 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:16.018 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-22 - Starting...
+2026-06-09 21:58:16.020 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-22 - Added connection conn182: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:16.020 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-22 - Start completed.
+2026-06-09 21:58:16.020 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:16.057 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:16.076 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:16.076 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:16.156 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:16.176 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:16.207 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:16.236 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:16.258 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:16.261 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:16.299 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:16.311 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:16.311 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:16.311 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:16.312 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:16.321 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.535 seconds (process running for 25.407)
+2026-06-09 21:58:16.362 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:16.363 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:16.365 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:16.365 [main] DEBUG [f898ce7734f24e05] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:16.368 [main] DEBUG [f898ce7734f24e05] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@2a542d83]
+2026-06-09 21:58:16.381 [main] DEBUG [f898ce7734f24e05] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleBusinessException(BusinessException, HttpServletRequest)
+2026-06-09 21:58:16.384 [main] DEBUG [f898ce7734f24e05] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:16.384 [main] DEBUG [f898ce7734f24e05] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@42d17d44]
+2026-06-09 21:58:16.385 [main] DEBUG [f898ce7734f24e05] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.BusinessException: Produto não pertence ao restaurante selecionado]
+2026-06-09 21:58:16.390 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1ce4c7e6, started on Tue Jun 09 21:58:15 BRT 2026
+2026-06-09 21:58:16.391 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:16.394 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-22 - Shutdown initiated...
+2026-06-09 21:58:16.422 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-22 - Shutdown completed.
+2026-06-09 21:58:16.423 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:16.442 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:16.442 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:16.443 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5eac831d
+2026-06-09 21:58:16.620 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:16.637 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:16.685 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:16.686 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-23 - Starting...
+2026-06-09 21:58:16.686 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-23 - Added connection conn191: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:16.687 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-23 - Start completed.
+2026-06-09 21:58:16.687 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:16.721 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:16.738 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:16.739 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:16.814 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:16.833 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:16.862 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:16.889 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:16.910 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:16.914 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:16.941 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:16.951 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:16.951 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:16.951 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:16.951 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:16.959 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.536 seconds (process running for 26.046)
+2026-06-09 21:58:16.980 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:16.981 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:16.981 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:16.981 [main] DEBUG [06c677bf3cec4076] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:16.984 [main] DEBUG [06c677bf3cec4076] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@6a350c52]
+2026-06-09 21:58:16.993 [main] DEBUG [06c677bf3cec4076] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:16.993 [main] DEBUG [06c677bf3cec4076] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@60acd4ae]
+2026-06-09 21:58:16.999 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing PATCH /api/pedidos/4/status
+2026-06-09 21:58:16.999 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:16.999 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured PATCH /api/pedidos/4/status
+2026-06-09 21:58:17.000 [main] DEBUG [6ebbb31f4ba04d5b] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#atualizarStatus(Long, StatusPedidoDTO)
+2026-06-09 21:58:17.003 [main] DEBUG [6ebbb31f4ba04d5b] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.StatusPedidoDTO@672dbf9]
+2026-06-09 21:58:17.006 [main] DEBUG [6ebbb31f4ba04d5b] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:17.006 [main] DEBUG [6ebbb31f4ba04d5b] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@5bb5eeae]
+2026-06-09 21:58:17.016 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@5eac831d, started on Tue Jun 09 21:58:16 BRT 2026
+2026-06-09 21:58:17.017 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:17.018 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-23 - Shutdown initiated...
+2026-06-09 21:58:17.025 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-23 - Shutdown completed.
+2026-06-09 21:58:17.026 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:17.043 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:17.044 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:17.044 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@6c06e079
+2026-06-09 21:58:17.206 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:17.221 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:17.267 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:17.267 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-24 - Starting...
+2026-06-09 21:58:17.268 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-24 - Added connection conn199: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:17.268 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-24 - Start completed.
+2026-06-09 21:58:17.268 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:17.298 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:17.316 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:17.317 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:17.394 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:17.411 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:17.441 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:17.466 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:17.489 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:17.493 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:17.519 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:17.527 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:17.528 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:17.528 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:17.529 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:17.536 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.51 seconds (process running for 26.622)
+2026-06-09 21:58:17.554 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos
+2026-06-09 21:58:17.555 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:17.555 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos
+2026-06-09 21:58:17.556 [main] DEBUG [a4219127b2d44207] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#criarPedido(PedidoReqDTO)
+2026-06-09 21:58:17.558 [main] DEBUG [a4219127b2d44207] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.req.PedidoReqDTO@fbce08b]
+2026-06-09 21:58:17.567 [main] DEBUG [a4219127b2d44207] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:17.567 [main] DEBUG [a4219127b2d44207] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.res.PedidoResDTO@3edb5917]
+2026-06-09 21:58:17.570 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing PATCH /api/pedidos/4/status
+2026-06-09 21:58:17.570 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:17.571 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured PATCH /api/pedidos/4/status
+2026-06-09 21:58:17.571 [main] DEBUG [e3e39fb94e7343d1] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#atualizarStatus(Long, StatusPedidoDTO)
+2026-06-09 21:58:17.572 [main] DEBUG [e3e39fb94e7343d1] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.deliverytech.delivery_api.dto.StatusPedidoDTO@4a805a5]
+2026-06-09 21:58:17.574 [main] DEBUG [e3e39fb94e7343d1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleBusinessException(BusinessException, HttpServletRequest)
+2026-06-09 21:58:17.575 [main] DEBUG [e3e39fb94e7343d1] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:17.575 [main] DEBUG [e3e39fb94e7343d1] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@798cbb17]
+2026-06-09 21:58:17.576 [main] DEBUG [e3e39fb94e7343d1] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.BusinessException: Transição de status inválida: PENDENTE -> ENTREGUE]
+2026-06-09 21:58:17.581 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@6c06e079, started on Tue Jun 09 21:58:17 BRT 2026
+2026-06-09 21:58:17.582 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:17.582 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-24 - Shutdown initiated...
+2026-06-09 21:58:17.613 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-24 - Shutdown completed.
+2026-06-09 21:58:17.615 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:17.630 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:17.630 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:17.630 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@712db754
+2026-06-09 21:58:17.785 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:17.800 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:17.841 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:17.842 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-25 - Starting...
+2026-06-09 21:58:17.842 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-25 - Added connection conn207: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:17.842 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-25 - Start completed.
+2026-06-09 21:58:17.843 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:17.870 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:17.889 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:17.889 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:17.961 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:17.979 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:18.008 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:18.034 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:18.053 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:18.057 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:18.082 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:18.091 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:18.091 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:18.091 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:18.091 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:18.100 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.486 seconds (process running for 27.185)
+2026-06-09 21:58:18.117 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing POST /api/pedidos/calcular
+2026-06-09 21:58:18.118 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:18.119 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured POST /api/pedidos/calcular
+2026-06-09 21:58:18.119 [main] DEBUG [a10c8ce27b8a4f0d] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#calcularTotal(List)
+2026-06-09 21:58:18.120 [main] DEBUG [a10c8ce27b8a4f0d] o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [[com.deliverytech.delivery_api.dto.ItemPedidoDTO@1da18f8]]
+2026-06-09 21:58:18.132 [main] DEBUG [a10c8ce27b8a4f0d] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:18.132 [main] DEBUG [a10c8ce27b8a4f0d] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [89.7]
+2026-06-09 21:58:18.136 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@712db754, started on Tue Jun 09 21:58:17 BRT 2026
+2026-06-09 21:58:18.138 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:18.139 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-25 - Shutdown initiated...
+2026-06-09 21:58:18.147 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-25 - Shutdown completed.
+2026-06-09 21:58:18.149 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:18.165 [main] INFO  [] c.d.d.c.PedidoControllerTest - Starting PedidoControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:18.165 [main] INFO  [] c.d.d.c.PedidoControllerTest - The following 1 profile is active: "test"
+2026-06-09 21:58:18.166 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@79997584
+2026-06-09 21:58:18.319 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:18.334 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:18.376 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:18.377 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-26 - Starting...
+2026-06-09 21:58:18.378 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-26 - Added connection conn214: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:18.378 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-26 - Start completed.
+2026-06-09 21:58:18.378 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:18.408 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:18.426 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:18.426 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:18.503 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:18.521 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:18.552 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:18.577 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:18.597 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:18.601 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:18.627 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:18.637 [main] DEBUG [] o.s.w.f.ServerHttpObservationFilter - Filter 'webMvcObservationFilter' configured for use
+2026-06-09 21:58:18.637 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:18.637 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:18.638 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2026-06-09 21:58:18.646 [main] INFO  [] c.d.d.c.PedidoControllerTest - Started PedidoControllerTest in 0.497 seconds (process running for 27.732)
+2026-06-09 21:58:18.661 [main] DEBUG [] o.s.security.web.FilterChainProxy - Securing GET /api/pedidos/999999
+2026-06-09 21:58:18.661 [main] WARN  [] c.d.d.s.JwtAuthenticationFilter - JWT Token não começa com Bearer String
+2026-06-09 21:58:18.662 [main] DEBUG [] o.s.security.web.FilterChainProxy - Secured GET /api/pedidos/999999
+2026-06-09 21:58:18.662 [main] DEBUG [de2dc754e3e54e64] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.PedidoController#buscarPorId(Long)
+2026-06-09 21:58:18.664 [main] DEBUG [de2dc754e3e54e64] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.deliverytech.delivery_api.exception.GlobalExceptionHandler#handleEntityNotFound(EntityNotFoundException, HttpServletRequest)
+2026-06-09 21:58:18.666 [main] DEBUG [de2dc754e3e54e64] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:18.666 [main] DEBUG [de2dc754e3e54e64] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ErrorResponse@d7e9c55]
+2026-06-09 21:58:18.666 [main] DEBUG [de2dc754e3e54e64] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.deliverytech.delivery_api.exception.EntityNotFoundException: Pedido não encontrado com ID: 999999]
+2026-06-09 21:58:18.674 [main] INFO  [] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.deliverytech.delivery_api.controller.RestauranteControllerTest]: RestauranteControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-09 21:58:18.680 [main] INFO  [] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.deliverytech.delivery_api.DeliveryApiApplication for test class com.deliverytech.delivery_api.controller.RestauranteControllerTest
+2026-06-09 21:58:18.682 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:18.692 [main] INFO  [] c.d.d.c.RestauranteControllerTest - Starting RestauranteControllerTest using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:18.692 [main] INFO  [] c.d.d.c.RestauranteControllerTest - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 21:58:18.693 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@4ac2f627
+2026-06-09 21:58:19.120 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 11 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:19.132 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-06-09 21:58:19.133 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:19.134 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:19.149 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Found 2 UserDetailsService beans, with names [inMemoryUserDetailsManager, com.deliverytech.delivery_api.service.AuthService#0]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-06-09 21:58:19.150 [main] DEBUG [] o.s.s.c.a.a.c.AuthenticationConfiguration$DefaultPasswordEncoderAuthenticationManagerBuilder - No authenticationProviders and no parentAuthenticationManager defined. Returning null.
+2026-06-09 21:58:19.165 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CsrfFilter, LogoutFilter, UsernamePasswordAuthenticationFilter, DefaultResourcesFilter, DefaultLoginPageGeneratingFilter, DefaultLogoutPageGeneratingFilter, BasicAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:19.172 [main] INFO  [] o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2026-06-09 21:58:19.172 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2026-06-09 21:58:19.172 [main] INFO  [] o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2026-06-09 21:58:19.174 [main] INFO  [] c.d.d.c.RestauranteControllerTest - Started RestauranteControllerTest in 0.492 seconds (process running for 28.26)
+2026-06-09 21:58:19.179 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.RestauranteController#buscarPorId(Long)
+2026-06-09 21:58:19.186 [main] DEBUG [] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:19.186 [main] DEBUG [] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ApiResponseWrapper@18a7e6ad]
+2026-06-09 21:58:19.193 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.RestauranteController#calcularTaxaEntrega(Long, String)
+2026-06-09 21:58:19.194 [main] DEBUG [] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:19.194 [main] DEBUG [] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ApiResponseWrapper@5bf7fb1e]
+2026-06-09 21:58:19.199 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.RestauranteController#alterarStatus(Long)
+2026-06-09 21:58:19.200 [main] DEBUG [] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:19.200 [main] DEBUG [] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ApiResponseWrapper@6e731bdc]
+2026-06-09 21:58:19.205 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.deliverytech.delivery_api.controller.RestauranteController#buscarPorCategoria(String)
+2026-06-09 21:58:19.206 [main] DEBUG [] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/yaml]
+2026-06-09 21:58:19.206 [main] DEBUG [] o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.deliverytech.delivery_api.dto.ApiResponseWrapper@395c8776]
+2026-06-09 21:58:19.211 [main] INFO  [] o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.deliverytech.delivery_api.DeliveryApiApplicationTests]: DeliveryApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-06-09 21:58:19.219 [main] INFO  [] o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.deliverytech.delivery_api.DeliveryApiApplication for test class com.deliverytech.delivery_api.DeliveryApiApplicationTests
+2026-06-09 21:58:19.222 [main] INFO  [] o.s.b.d.r.RestartApplicationListener - Restart disabled due to context in which it is running
+2026-06-09 21:58:19.233 [main] INFO  [] c.d.d.DeliveryApiApplicationTests - Starting DeliveryApiApplicationTests using Java 21.0.11 with PID 7312 (started by Santana in C:\Pasta Códiguinhos\arquitetura de sistemas fat\delivery-api\delivery-api)
+2026-06-09 21:58:19.233 [main] INFO  [] c.d.d.DeliveryApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2026-06-09 21:58:19.234 [main] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@1ff72c77
+2026-06-09 21:58:19.377 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-09 21:58:19.391 [main] INFO  [] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 5 JPA repository interfaces.
+2026-06-09 21:58:19.437 [main] INFO  [] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-09 21:58:19.438 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-27 - Starting...
+2026-06-09 21:58:19.439 [main] INFO  [] com.zaxxer.hikari.pool.HikariPool - HikariPool-27 - Added connection conn224: url=jdbc:h2:mem:deliverydb user=SA
+2026-06-09 21:58:19.439 [main] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-27 - Start completed.
+2026-06-09 21:58:19.439 [main] WARN  [] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-09 21:58:19.472 [main] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:19.490 [main] INFO  [] o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2026-06-09 21:58:19.490 [main] WARN  [] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2026-06-09 21:58:19.561 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerMapping - 42 mappings in 'requestMappingHandlerMapping'
+2026-06-09 21:58:19.581 [main] DEBUG [] o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**, /swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2026-06-09 21:58:19.615 [main] INFO  [] o.s.b.a.e.web.EndpointLinksResolver - Exposing 13 endpoints beneath base path '/actuator'
+2026-06-09 21:58:19.643 [main] DEBUG [] o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2026-06-09 21:58:19.665 [main] DEBUG [] o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-06-09 21:58:19.670 [main] DEBUG [] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-06-09 21:58:19.703 [main] INFO  [] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:deliverydb'
+2026-06-09 21:58:19.717 [main] INFO  [] c.d.d.DeliveryApiApplicationTests - Started DeliveryApiApplicationTests in 0.496 seconds (process running for 28.803)
+2026-06-09 21:58:19.787 [SpringApplicationShutdownHook] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@79997584, started on Tue Jun 09 21:58:18 BRT 2026
+2026-06-09 21:58:19.789 [SpringApplicationShutdownHook] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:19.790 [SpringApplicationShutdownHook] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-26 - Shutdown initiated...
+2026-06-09 21:58:19.791 [SpringApplicationShutdownHook] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-26 - Shutdown completed.
+2026-06-09 21:58:19.791 [SpringApplicationShutdownHook] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@4ac2f627, started on Tue Jun 09 21:58:18 BRT 2026
+2026-06-09 21:58:19.792 [SpringApplicationShutdownHook] DEBUG [] o.s.w.c.s.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@1ff72c77, started on Tue Jun 09 21:58:19 BRT 2026
+2026-06-09 21:58:19.792 [SpringApplicationShutdownHook] INFO  [] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-09 21:58:19.793 [SpringApplicationShutdownHook] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-27 - Shutdown initiated...
+2026-06-09 21:58:19.808 [SpringApplicationShutdownHook] INFO  [] com.zaxxer.hikari.HikariDataSource - HikariPool-27 - Shutdown completed.
