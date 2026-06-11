@@ -35,6 +35,12 @@ jobs:
           -e JWT_EXPIRATION="${{ secrets.JWT_EXPIRATION }}" \
           minha-api
 
+    - name: Show Docker containers
+      run: docker ps -a
+
+    - name: Show application logs
+      run: docker logs $(docker ps -q)
+
     - name: Test application startup
       run: |
         echo "Aguardando a API ficar online (Health Check)..."
