@@ -20,9 +20,11 @@ jobs:
         distribution: 'temurin'
 
     - name: Build with Maven
+      working-directory: delivery-api/delivery-api
       run: mvn clean install -DskipTests
 
     - name: Build Docker image
+      working-directory: delivery-api/delivery-api
       run: docker build -t minha-api .
 
     - name: Run Docker container
